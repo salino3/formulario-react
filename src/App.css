@@ -1,0 +1,75 @@
+body{
+  background-color:aquamarine;
+}
+.mi_formulario_container {
+  padding: 20px;
+  justify-content: center;
+  margin-left: 25%;
+  margin-bottom: 25%;
+
+}
+.mi_formulario_header {
+  width: 24em;
+  height: 6em;
+  background-image: url(https:get.wallhere.com/photo/colorful-illustration-minimalism-symmetry-green-triangle-pattern-geometry-circle-material-style-color-shape-design-line-computer-wallpaper-font-219346.jpg);
+  background-size: cover;
+}
+.mi_formulario_title {
+  padding: 0.5em;
+  color: #7d3bd4;
+  text-shadow: 4px 6px 3px #7d3bd4;
+}
+.mi_formulario_form {
+  background-image: url("/src/assets/fondopantalla.jpg");
+  width: 22em;
+  height: 13em;
+  padding: 1em;
+  padding-top:2em;
+  opacity: 0.88;
+}
+/* para posicionar icono dentro del input */
+.fa {
+  color: rgb(33, 150, 33);
+  text-align: center;
+  padding-left: 1em;
+  padding-top: 0.4em;
+  position: absolute;
+}
+.fa-phone{
+    text-align: center;
+  padding-left: 0.5em;
+  padding-top: 0.4em;
+  position: absolute;
+
+}
+.fa-at{
+    padding-left: 0.5em;
+
+}
+.mi_formulario_input {
+  padding-left: 1.8em;
+}
+
+/* ------  */
+.button{
+  background-color:rgb(23, 127, 162);
+  border-radius: 10px;
+}
+
+.mi_formulario_footer {
+  background-image: url("/src/assets/imagen-footer.jpg");
+  width: 22em;
+  height: 6em;
+  background-size: cover;
+  padding:1em;
+
+}
+.mi_formulario_label {
+  font-weight: 700;
+}
+
+.mi_formulario_group > .mi_formulario_label {
+  padding:1em;
+  color: orange;
+
+}
